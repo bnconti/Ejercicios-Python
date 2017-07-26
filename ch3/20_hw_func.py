@@ -1,5 +1,13 @@
 # Exercise 3.20: Write functions
 
+"""
+SAMPLE RUN:
+Hello, World!
+Hello, World!
+Hello, World!
+Python function
+"""
+
 
 def hw1():
     return "Hello, World!"

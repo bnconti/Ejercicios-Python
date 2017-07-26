@@ -1,5 +1,9 @@
 # Exercise 3.16: Compute the area of an arbitrary triangle
 
+"""
+SAMPLE RUN:
+11 6 11 9
+"""
 
 def triangle_area(vertices):
     x1 = vertices[0][0]

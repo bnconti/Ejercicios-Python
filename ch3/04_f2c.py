@@ -1,5 +1,10 @@
 # Exercise 3.4: Write a Fahrenheit-Celsius conversion functions
 
+"""
+SAMPLE RUN:
+ 0C° equals  0.0C°? True
+ 0F° equals 32.0F°? True
+"""
 
 def F(f):
     c = 5/9*(f - 32)

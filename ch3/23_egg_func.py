@@ -1,5 +1,14 @@
 # Exercise 3.23: Wrap a formula in a function
 
+"""
+SAMPLE RUN:
+To hard boil the big egg taken from the fridge, cook it for 6.67 minutes.
+To hard boil the big egg with room temperature, cook it for 4.82 minutes.
+To hard boil the little egg taken from the fridge, cook it for 5.26 minutes.
+To hard boil the little egg with room temperature, cook it for 3.80 minutes.
+"""
+
+
 from math import pi, log
 
 # M = 67  # egg mass [g]

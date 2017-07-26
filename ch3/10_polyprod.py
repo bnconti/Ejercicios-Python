@@ -14,5 +14,4 @@ def test_poly():
     assert (poly(3, [1, 2, 3])) == 0
     assert (poly(8, [2,4,6])) == 48
 
-print(test_poly())
-
+test_poly()

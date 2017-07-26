@@ -1,5 +1,11 @@
 # Exercise 3.28: Find the max and min elements in a list
 
+"""
+SAMPLE RUN:
+9516
+-9794
+"""
+
 import random
 
 

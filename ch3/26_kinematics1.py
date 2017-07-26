@@ -1,5 +1,11 @@
 # Exercise 3.26: Compute velocity and acceleration from 1D position data
 
+"""
+SAMPLE RUN:
+Velocity: 150.0 - Acceleration: 0.00
+Velocity: 150.0 - Acceleration: 0.00
+"""
+
 
 def kinematics(i, x, t):
     # x = position array
@@ -22,4 +28,4 @@ def test_kinematics():
 
 test_kinematics()
 
-# Constant velocity means that the acceleration is equal to zero.
+# If the velocity is constant, the acceleration will be equal to zero.

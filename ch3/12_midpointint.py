@@ -1,5 +1,17 @@
 # Exercise 3.12: Derive the general Midpoint integration rule
 
+"""
+SAMPLE RUN:
+One rectangle.
+Area of cos(x) from 0.000 to 3.142. Approximation: 0.00000. Margin of error: -0.00000
+Area of sin(x) from 0.000 to 3.142. Approximation: 3.14159. Margin of error: -1.14159
+Area of sin(x) from 0.000 to 1.571. Approximation: 1.11072. Margin of error: -0.11072
+Ten rectangles.
+Area of cos(x) from 0.000 to 3.142. Approximation: 0.00000. Margin of error: -0.00000
+Area of sin(x) from 0.000 to 3.142. Approximation: 2.00825. Margin of error: -0.00825
+Area of sin(x) from 0.000 to 1.571. Approximation: 1.00103. Margin of error: -0.00103
+"""
+
 from math import cos, sin, pi
 
 functions = [(cos, 0, pi), (sin, 0, pi), (sin, 0, pi/2)]

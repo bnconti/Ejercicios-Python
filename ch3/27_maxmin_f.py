@@ -1,6 +1,13 @@
 # Exercise 3.27: Find the max and min values of a function
 
+"""
+SAMPLE RUN:
+Max:  1.00
+Min: -1.00
+"""
+
 from math import cos, pi
+
 
 def maxmin(f, a, b, n=1000):
     h = (b - a) / (n - 1)
@@ -13,4 +20,4 @@ def maxmin(f, a, b, n=1000):
 max, min = maxmin(lambda x: cos(x), -pi/2, 2*pi)
 print("Max: {:>5.2f} \nMin: {:>5.2f}".format(max, min))
 
-# There is more than 1 maximum value on that interval, but the function max() gives you only one max. value.
+# There is more than 1 maximum value on that interval, but the function max() gives you only one of those.

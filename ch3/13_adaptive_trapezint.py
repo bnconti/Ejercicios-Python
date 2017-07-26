@@ -1,5 +1,13 @@
 # Exercise 3.13: Make an adaptive Trapezoidal rule
 
+"""
+SAMPLE RUN:
+Area of the function cos, from 0.000 to 3.142. Approximation: -0.004085. Margin of error: 0.00408
+Area of the function sin, from 0.000 to 3.142. Approximation: 1.999972. Margin of error: 0.00003
+Area of the function sin, from 0.000 to 1.571. Approximation: 0.993619. Margin of error: 0.00638
+"""
+
+
 from math import sqrt, cos, pi, sin
 
 functions = [(cos, 0, pi), (sin, 0, pi), (sin, 0, pi/2)]
@@ -32,10 +40,9 @@ def adaptive_trapezint(f, a, b, eps=1E-5):
 
 def test_adaptative_trapezint():
     values = [adaptive_trapezint(f[0], f[1], f[2]) for f in functions]
-    print(values)
     error = [0 - values[0], 2 - values[1], 1 - values[2]]
     for f, v, e in zip(functions, values, error):
-        print("Function {}, from {:.3f} to {:.3f}. Approximation of area: {:.6f}. Margin of error: {:.5f}"
+        print("Area of the function {}, from {:.3f} to {:.3f}. Approximation: {:.6f}. Margin of error: {:.5f}"
               .format(f[0].__name__, f[1], f[2], v, e))
 
 test_adaptative_trapezint()

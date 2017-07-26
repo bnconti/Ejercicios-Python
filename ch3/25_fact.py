@@ -1,5 +1,9 @@
 # Exercise 3.25: Implement the factorial function
 
+"""
+SAMPLE RUN:
+3628800
+"""
 
 def fact(n):
     f = 1
@@ -20,3 +24,4 @@ def test_fact():
     assert fact(1) == 1
 
 test_fact()
+print(fact(10))

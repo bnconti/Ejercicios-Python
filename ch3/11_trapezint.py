@@ -1,5 +1,14 @@
 # Exercise 3.11: Integrate a function by the Trapezoidal rule
 
+"""
+SAMPLE RUN:
+Five trapezoids.
+Function cos, from 0.000 to 3.142. Approximation of area: -0.568319. Margin of error: 0.56832
+Function sin, from 0.000 to 3.142. Approximation of area: 1.749107. Margin of error: 0.25089
+Function sin, from 0.000 to 1.571. Approximation of area: 0.943221. Margin of error: 0.05678
+"""
+
+
 from math import cos, sin, pi
 
 functions = [(cos, 0, pi), (sin, 0, pi), (sin, 0, pi/2)]

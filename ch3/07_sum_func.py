@@ -10,7 +10,6 @@ def sum_1k(M):
 
 def test_sum_1k():
     k = 3
-    print("{:.17f}".format(sum_1k(3)-11/6))
     success = (sum_1k(k)-11/6) < 1E-10
     msg = ("sum_1k({}) is incorrect".format(k))
     assert success, msg

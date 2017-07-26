@@ -1,5 +1,16 @@
 # Exercise 3.24: Write a function for numerical differentiation
 
+"""
+SAMPLE RUN:
+| Function     |  Input  |  Approx.  |  Exact val.  |    Error    |
+|--------------+---------+-----------+--------------+-------------|
+| exp(x)       |    0    |  1.00002  |      1       | 1.66667e-05 |
+| exp(-2*x**2) |    0    |     0     |      0       |      0      |
+| cos(x)       | 6.28319 |     0     |      0       |      0      |
+| log(x)       |    1    |  1.00003  |      1       | 3.33353e-05 |
+"""
+
+
 from math import sqrt, exp, cos, log, pi
 from tabulate import tabulate
 
@@ -20,6 +31,7 @@ def test_diff():
         assert abs(y-e) < tol, print("Expected {}, received {}".format(e, y))
 
 test_diff()
+
 
 def application():
     functions = [lambda x: exp(x), lambda x: exp(-2*x**2), lambda x: cos(x), lambda x: log(x)]
