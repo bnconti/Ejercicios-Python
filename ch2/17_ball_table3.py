@@ -1,19 +1,32 @@
+# Exercise 2.17: Store data in a nested list
+
 """
-Exercise 2.17: Store data in a nested list
-
-The purpose of this exercise is to store tabular data in two alternative ways, either
-as a list of columns or as a list of rows. In order to write out a nicely formatted
-table, one has to traverse the data, and the technique for traversal depends on how
-the tabular data is stored.
-
-a) Compute two lists of t and y values as explained in Exercise 2.9. Store the two
-lists in a new nested list ty1 such that ty1[0] and ty1[1] correspond to the
-two lists. Write out a table with t and y values in two columns by looping over
-the data in the ty1 list. Each number should be written with two decimals.
-
-b) Make a list ty2 which holds each row in the table of t and y values ( ty1 is a list
-of table columns while ty2 is a list of table rows, as explained in Sect. 2.4).
-Loop over the ty2 list and write out the t and y values with two decimals each.
+SAMPLE RUN:
+------------
+y(0.00) = 0.00
+y(0.20) = 1.83
+y(0.41) = 3.26
+y(0.61) = 4.28
+y(0.82) = 4.89
+y(1.02) = 5.10
+y(1.22) = 4.89
+y(1.43) = 4.28
+y(1.63) = 3.26
+y(1.83) = 1.83
+y(2.04) = 0.00
+------------
+y(0.00) = 0.00
+y(0.20) = 1.83
+y(0.41) = 3.26
+y(0.61) = 4.28
+y(0.82) = 4.89
+y(1.02) = 5.10
+y(1.22) = 4.89
+y(1.43) = 4.28
+y(1.63) = 3.26
+y(1.83) = 1.83
+y(2.04) = 0.00
+------------
 """
 
 v_0 = 10  # Initial velocity

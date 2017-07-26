@@ -1,5 +1,20 @@
 # Exercise 2.9: Store values from a formula in lists
 
+"""
+SAMPLE RUN:
+y(0.00) = 0.00
+y(0.20) = 1.83
+y(0.41) = 3.26
+y(0.61) = 4.28
+y(0.82) = 4.89
+y(1.02) = 5.10
+y(1.22) = 4.89
+y(1.43) = 4.28
+y(1.63) = 3.26
+y(1.83) = 1.83
+y(2.04) = 0.00
+"""
+
 v_0 = 10  # Initial velocity
 g = 9.81  # Gravity
 

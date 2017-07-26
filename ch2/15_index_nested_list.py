@@ -1,5 +1,15 @@
 # Exercise 2.15: Index a nested list
 
+"""
+SAMPLE RUN:
+a
+['d', 'e', 'f']
+h
+d
+abcdefgh
+"""
+
+
 q = [["a", "b", "c"], ["d", "e", "f"], ["g", "h"]]
 
 # a) Index this list to extract:

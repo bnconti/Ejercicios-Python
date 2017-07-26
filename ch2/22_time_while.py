@@ -1,5 +1,15 @@
 # Exercise 2.22: Interpret a code
 
+"""
+SAMPLE RUN:
+....I like while loops!
+....I like while loops!
+....I like while loops!
+....I like while loops!
+....I like while loops!
+Oh, no - the loop is over.
+"""
+
 import time
 t0 = time.time()
 while time.time() - t0 < 10:

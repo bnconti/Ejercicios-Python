@@ -1,4 +1,5 @@
 # Exercise 2.10: Simulate operations on lists by hand
+
 """
 a = [1, 3, 5, 7, 11]    #  CREATES LIST a WITH SOME VALUES
 b = [13, 17]            #  CREATES LIST b WITH SOME VALUES
