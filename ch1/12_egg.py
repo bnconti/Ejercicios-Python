@@ -1,6 +1,4 @@
-"""
-Exercise 1.12: How to cook the perfect egg
-"""
+# Exercise 1.12: How to cook the perfect egg
 
 from math import pi, log
 
