@@ -1,7 +1,11 @@
+# Exercise 1.8: Type in program text
+
 """
-Exercise 1.8: Type in program text
-Type the following program in your editor and execute it. If your program does not
-work, check that you have copied the code correctly.
+SAMPLE RUN:
+The area of the parallelogram is 10.000
+The area of the square is 4
+The area of the circle is 7.069
+The volume of the cone is 11.781
 """
 
 from math import pi
