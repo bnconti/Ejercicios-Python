@@ -1,13 +1,8 @@
+# Exercise 1.6: Compute the growth of money in a bank
+
 """
-Exercise 1.6: Compute the growth of money in a bank
-Let p be a bank’s interest rate in percent per year. An initial amount A has then
-grown to
-
-A(1 + p/100)**n
-
-after n years. Make a program for computing how much money 1000 euros have
-grown to after three years with 5 percent interest rate.
-Filename: interest_rate .
+SAMPLE RUN:
+AFTER 3 YEARS AND WITH AN INTEREST RATE OF 5.0 PERCENT, THE INITIAL 1000.0€ HAVE BECOME 1157.6€. WOOOOOOOOOO.
 """
 
 A = 1000.0
