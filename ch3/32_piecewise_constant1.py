@@ -18,5 +18,3 @@ def test_piecewise():
     assert piecewise(-5, [(-1, -10), (1, 0), (2, 10)]) is -1
     assert piecewise(1, [(2, 0), (3, 100), (4, 1000), (5, 10000)]) is 2
     assert piecewise(-10, [(2, 0), (3, 100), (4, 1000), (5, 10000)]) is None
-
-test_piecewise()
