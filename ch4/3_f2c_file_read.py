@@ -24,7 +24,7 @@ def extract_data(data):
     return values
 
 print("Convert from Fahrenheit to Celsius.")
-F = extract_data('3_data.txt')
+F = extract_data('03_data.txt')
 for value in F:
     print("{:.1f} °F => {:.1f} °C".format(value, (F[0] - 32) / 1.8))
 

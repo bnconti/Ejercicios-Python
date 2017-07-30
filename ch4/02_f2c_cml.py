@@ -6,7 +6,7 @@
 
 """
 SAMPLE RUN:
-python 2_f2c_cml.py 0
+python 02_f2c_cml.py 0
 Convert from Fahrenheit to Celsius.
 -17.8 °C
 """

@@ -6,7 +6,7 @@
 
 """
 SAMPLE RUN:
-4_output.txt
+04_output.txt
 67.2 	 19.6
 66.0 	 18.9
 78.9 	 26.1
@@ -28,8 +28,8 @@ def extract_data(data):
     infile.close()
     return values
 
-F_values = extract_data('4_Fdeg.dat')
-outfile = open('4_output.txt', 'w')
+F_values = extract_data('04_Fdeg.dat')
+outfile = open('04_output.txt', 'w')
 for F in F_values:
     C = (F - 32) / 1.8
     outfile.write("{:.1f} \t {:.1f} \n".format(F, C))

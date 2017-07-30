@@ -6,11 +6,11 @@
 
 """
 SAMPLE RUN:
-python 5_f2c_cml_exc.py 0
+python 05_f2c_cml_exc.py 0
 Convert from Fahrenheit to Celsius.
 0.0 °F => -17.8 °C
 
-python 5_f2c_cml_exc.py
+python 05_f2c_cml_exc.py
 Missing argument!
 """
 

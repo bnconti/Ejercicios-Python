@@ -6,19 +6,19 @@
 
 """
 SAMPLE RUN:
-python 7_objects_cml.py 11
+python 07_objects_cml.py 11
 The input is of type 'int' and its value is '11'
 
-python 7_objects_cml.py 0.1
+python 07_objects_cml.py 0.1
 The input is of type 'float' and its value is '0.1'
 
-python 7_objects_cml.py "[2, 4, 6, 8, 10]"
+python 07_objects_cml.py "[2, 4, 6, 8, 10]"
 The input is of type 'list' and its value is '[2, 4, 6, 8, 10]'
 
-python 7_objects_cml.py "(1, 1)"
+python 07_objects_cml.py "(1, 1)"
 The input is of type 'tuple' and its value is '(1, 1)'
 
-python 7_objects_cml.py '"this is a string"'
+python 07_objects_cml.py '"this is a string"'
 The input is of type 'str' and its value is 'this is a string'
 """
 
