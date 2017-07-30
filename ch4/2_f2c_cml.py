@@ -13,11 +13,6 @@ Convert from Fahrenheit to Celsius.
 
 import sys
 
-"""
-Modify the program from Exercise 4.1 such that the Fahrenheit temperature is read
-from the command line.
-"""
-
 print("Convert from Fahrenheit to Celsius.")
 F = float(sys.argv[1])
 C = (F - 32) / 1.8

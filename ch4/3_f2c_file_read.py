@@ -10,11 +10,6 @@ Convert from Fahrenheit to Celsius.
 67.2 °F => 19.6 °C
 """
 
-"""
-Modify the program from Exercise 4.1 such that the Fahrenheit temperature is read
-from a file with the following content:
-"""
-
 def extract_data(data):
     infile = open(data, 'r')
     values = []

@@ -11,13 +11,6 @@ Input F = 0
 -17.8 °C
 """
 
-"""
-Make a program that asks the user for a temperature in Fahrenheit
-degrees and reads the number; 
-computes the corresponding temperature in Celsius degrees; 
-and prints out the temperature in the Celsius scale.
-"""
-
 print("Convert from Fahrenheit to Celsius.")
 F = float(input("Input F = "))
 C = (F - 32) / 1.8
