@@ -4,9 +4,9 @@
 # Exercise 4.18: Use the StringFunction tool
 # Author: Bruno N. Conti
 
-# Using Python 2.7 because compatibility issues with SciTools and my IDE wasn't
-# able to find the scitools package, but I was able to run the program from the
-# console after creating a virtual enviroment with Anaconda.
+# I had to use Python 2.7 because compatibility issues with SciTools. Besides that, my
+# IDE couldn't find the SciTools package, but I was able to run the program from the console
+# after creating a virtual enviroment with Anaconda.
 
 """
 SAMPLE RUN:
