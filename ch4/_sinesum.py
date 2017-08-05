@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#
+# # I can't import files that start with a number so I had to create this one for some exercises.
 # Author: Bruno N. Conti
 
 from math import pi, sin
 
 __all__ = ['S', 'f']
+
 
 def S(t, n, T=2*pi):
     s = 0
@@ -18,9 +19,9 @@ def S(t, n, T=2*pi):
 def f(t, T=2*pi):
     if 0 < t < T/2:
         return 1
-    elif t == T/2:
+    elif abs(t - T/2) < 1E-5:
         return 0
-    elif T/2 < t < T:
+    elif T/2 < t <= T:
         return -1
 
 if __name__ == '__main__':
