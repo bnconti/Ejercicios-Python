@@ -65,4 +65,3 @@ if __name__ == "__main__":
         print("Missprints problem - 6 per page.")
         print("Prob. of a reader of finding 0 missprints in 6 pages: {:.17%}"
               .format(Poisson(0, 6, 6)))
-
